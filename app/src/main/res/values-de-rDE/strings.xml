@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2_GUI</string>
+    <string name="Toast_message">ein Prost!</string>
+    <string name="swON">einschalten</string>
+    <string name="swOFF">ausschalten</string>
+    <string name="swit">Ein-/ Ausschalten</string>
+    <string name="button">Klicken Sie hier</string>
+    <string name="check">Überprüfen Sie dies</string>
+    <string name="hints">Namen hier eingeben</string>
+</resources>

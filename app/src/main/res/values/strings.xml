@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lab2_GUI</string>
+    <string name="Toast_message">toast</string>
+    <string name="swON">Switch ON</string>
+    <string name="swOFF">Switch OFF</string>
+    <string name="swit">Switch on/off</string>
+    <string name="button">Click Here</string>
+    <string name="check">Check this out</string>
+    <string name="hints">Enter name here</string>
+</resources>
