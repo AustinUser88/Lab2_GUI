@@ -7,63 +7,75 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="188dp"
-        android:layout_marginBottom="72dp"
+        android:layout_width="402dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="30dp"
         android:text="Lab 2 GUI"
+        android:textAlignment="center"
+        android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="106dp"
-        android:layout_marginBottom="89dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
         app:srcCompat="@drawable/flag"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="165dp"
         android:layout_height="55dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="160dp"
         android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/switch2" />
+        app:layout_constraintEnd_toStartOf="@+id/switch1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/switch1"
         android:layout_width="150dp"
         android:layout_height="48dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="37dp"
-        android:layout_marginBottom="312dp"
+        android:layout_marginBottom="180dp"
         android:text="@string/swit"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:layout_width="300sp"
         android:layout_height="100sp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
         android:hint="@string/hints"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
